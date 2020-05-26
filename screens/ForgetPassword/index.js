@@ -53,12 +53,6 @@ export default class ForgetPassword extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>
-          {"\n"}
-          {"\n"}
-          {"\n"}
-          {"\n"}
-        </Text>
         <Text style={styles.forgetText}>{this.state.error}</Text>
         <TexttInput
           style={styles.inputBox}
